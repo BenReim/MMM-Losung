@@ -1,8 +1,8 @@
 .MMM-Losung {
 	display: flex;
 	flex-direction: column;
-	/* width: 100%;
-	height: 100%; */
+	width: 70%; 
+	/*height: 100%; */
 	/* margin: 0; */
 	padding: 0;
 	/* position: relative; */
@@ -24,7 +24,8 @@
 	color: #fff;
 }
 .moravian-vers {
-	text-align: end;
+	text-align: start;
+	font: 0.65rem sans-serif;
 	margin: 0.25rem 0 0.5rem 0;
 }
 /* .moravian-moravian::after {

@@ -49,7 +49,7 @@ Module.register('MMM-Losung', {
 		wrapper.classList.add('moravian-container');
 
 		if (self.losungData === null) {
-			wrapper.innerHTML = 'Data get loaded';
+			wrapper.innerHTML = 'Einen Moment...';
 		} else {
 			const dailyTextElement = self._createElement(
 				[
@@ -102,7 +102,7 @@ Module.register('MMM-Losung', {
 		elementText.innerHTML = texts[1];
 		elementVers.innerHTML = texts[2];
 
-		element.appendChild(elementHeader);
+		//element.appendChild(elementHeader);
 		element.appendChild(elementText);
 		element.appendChild(elementVers);
 
